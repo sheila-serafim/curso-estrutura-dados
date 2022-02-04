@@ -2,7 +2,7 @@ package Teste;
 
 import cursoEstruturaDeDados.Lista;
 
-public class TesteRemove {
+public class TesteObtem {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -15,19 +15,10 @@ public class TesteRemove {
 		lista.adiciona("D");
 		lista.adiciona("E");
 
-		System.out.println(lista);
+		System.out.println(lista.obtem(0));
+		System.out.println(lista.obtem(2));
+		System.out.println(lista.obtem(4));
 
-		lista.remove("A");
-
-		System.out.println(lista);
-
-		lista.remove("E");
-
-		System.out.println(lista);
-
-		lista.remove("C");
-
-		System.out.println(lista);
 	}
 
 }
