@@ -1,6 +1,6 @@
 package cursoEstruturaDeDadosPilha;
 
-import cursoEstruturaDeDados.EstruturaEstatica;
+import cursoEstruturaDeDadosBase.EstruturaEstatica;
 
 public class Pilha<T> extends EstruturaEstatica<T> {
 	
@@ -13,6 +13,7 @@ public class Pilha<T> extends EstruturaEstatica<T> {
 	}
 	
 	public void empilha(T elemento) {
-		
+
+		super.adiciona(elemento);
 	}
 }

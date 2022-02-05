@@ -9,7 +9,7 @@ public class Aula13 {
 		Pilha<Integer> pilha = new Pilha<Integer>();
 		
 		System.out.println(pilha);
-		System.out.println(pilha.tamanho());
+		//System.out.println(pilha.tamanho());
 	}
 
 }
